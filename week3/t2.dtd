@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!DOCTYPE class [
+  <!ATTLIST class name PCDATA #REQUIRED>
+  <!ELEMENT class (student+)>
+  <!ELEMENT student (name,email,dob?)>
+  <!ATTLIST name id CDATA #REQUIRED>
+  <!ELEMENT name (first_name,middle_name?,last_name)>
+  <!ELEMENT first_name (#PCDATA)>
+  <!ELEMENT middle_name (#PCDATA)>
+  <!ELEMENT last_name (#PCDATA)>
+  <!ELEMENT email (#PCDATA)>
+  <!ELEMENT dob (year,month,day)>
+  <!ELEMENT day (#PCDATA)>
+  <!ELEMENT month (#PCDATA)>
+  <!ELEMENT year (#PCDATA)>
+  ]>

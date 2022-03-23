@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="student" type="xs:string">
+        <xs:attribute name="id" type="xs:positiveInteger" use="required"/>
+    </xs:element>
+</xs:schema>
